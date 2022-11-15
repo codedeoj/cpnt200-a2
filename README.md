@@ -1,58 +1,24 @@
-# 🚀 Getting started with Strapi
-
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
-
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
 # strapi-project
+**Course title:** CPNT 200
+
+**Assignment name:** Assignment 2 - Strapi Project and Model
+
+**Author:** Deoj Balcanao
+
+## Extras
+
+**Relation fields**
+
+I added relation fields to the **Category** & **Products**
+
+One to many relationship - a category can contain many products, and a product can belong to a single category.
+
+## Project Topic
+**Backend API for ecommerce website.**
+
+This project model is for an apparel ecommerce website. The website will offer an extensive collection of products for men and women from recognized brands and top designer names. Plus, it will also offer shoes and accessories, and a wide range of categories to sort through.
+
+The website allows users to retrieve a list of available products and provides detailed information such as product availability, sizing, colours, pricing and images. You can also filter your searches by category, gender, size, and colour, and you can also sort your search results by price, sale, ratings and more.
+## Site Map
+ - link https://www.figma.com/file/mtpbiouMeTLYav6SYtwHWI/SITEMAP?node-id=0%3A1&t=pE0Hp5vuDzfl9My6-0
+![site-map](https://user-images.githubusercontent.com/76461008/201819454-3024a66e-43e4-4813-aaf9-9326f14eab4a.png)
